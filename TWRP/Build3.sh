@@ -1,4 +1,4 @@
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch twrp_a13x-eng
+lunch twrp_m21-eng
 mka recoveryimage -j128
