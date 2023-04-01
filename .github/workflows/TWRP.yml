@@ -5,11 +5,11 @@ on:
       GH_USERNAME:
         description: 'GitHub Username'
         required: true
-        default: 'VThang51'
+        default: 'MaxSLL'
       GH_EMAIL:
         description: 'GitHub Email'
         required: true
-        default: 'vietthang0511.2@gmail.com'
+        default: 'mehadun@gmail.com'
       MANIFEST_TYPE:
         description: 'Manifest Type'
         required: true
@@ -36,11 +36,11 @@ on:
       DEVICE_TREE_URL:
         description: 'Device Tree URL'
         required: true
-        default: 'https://github.com/VThang51/android_device_samsung_a13'
+        default: 'https://github.com/MaxSLL/twrp_215'
       DEVICE_TREE_BRANCH:
         description: 'Device Tree Branch'
         required: true
-        default: 'master'
+        default: 'twrp-11'
       BRAND:
         description: 'Brand'
         required: true
@@ -48,7 +48,7 @@ on:
       DEVICE_CODE:
         description: 'Brand/Device Code'
         required: true
-        default: 'a13x'
+        default: 'm21'
       MAKEFILE_TYPE:
         description: 'Makefile Type'
         required: true
@@ -74,7 +74,7 @@ jobs:
 
       - name: Cleanup
         run: |
-          curl -LO https://github.com/VThang51/Recovery-Builder-Online/raw/main/General/Cleanup.sh | bash
+          curl -LO https://github.com/MaxSLL/Recovery-Builder-Online/raw/main/General/Cleanup.sh | bash
           sudo rm -rf /usr/share/dotnet
           sudo rm -rf /opt/ghc
           sudo rm -rf "/usr/local/share/boost"
