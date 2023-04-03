@@ -1,1 +1,1 @@
-./orangefox_sync.sh --branch 12.1 --path ~/fox_12.1
+./orangefox_sync.sh --branch 11.0 --path ~/fox_11.0
