@@ -1,2 +1,2 @@
-cd ~/fox_12.1
-git clone -b master https://github.com/TeamWin/android_device_samsung_a13x.git device/samsung/a13x
+cd ~/fox_11.0
+git clone -b ofox-11 https://github.com/MaxSLL/twrp_215.git device/samsung/m21
